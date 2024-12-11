@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium';
+}
+
+.navbar{
+    width: 100%;
+    height: 110px;
+    position: sticky;
+}
+.menu{
+    float: left;
+    padding-top: 30px;
+    position: sticky;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    padding-left:150px;
+}       
+.menu ul li{
+   margin: 10px;
+    font-size: 25px;
+    display: flex;
+    position: sticky;
+}
+.li{
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+
+.signup{
+    
+    margin-top: -19px;
+    width: 146px;
+    padding: 10px;
+    font-size: 21px;
+    color: blue;
+    border-radius: 10PX;
+    background-color: #fff;
+    
+    
+}
+.login1{
+    margin: 10px;
+   display: flex;
+   font-size: 1px;
+   justify-content: space-around;
+   gap: 20px;
+   margin-left: 300px;
+}
+.photo{
+    background-color: #fff;
+    margin-top: 10px;
+}
+.photo img{
+    margin-top: 40px;
+    
+}
+
+.head h1{
+    position: absolute;
+    font-size: 40px;
+    top: 300px;
+    color: white;
+}
+.head button{
+    position: absolute;
+    color: white;
+    background-color: rgb(101, 101, 241);
+    top:832px;
+    margin-left:188px;
+    border-radius:9px;
+    font-size:19px;
+    padding: 21px;
+    width: 269px;
+}
+.main h2{
+    position: absolute;
+    top: 192%;
+    margin-left: 30%;
+    color:black;
+    font-size: 40px;
+}
+.main p{
+    margin-left: 110px;
+    top:10%;
+    font-size:15px;
+    margin-left: 430px;
+    margin-top: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height:1.5;
+}
+.Getstarted{
+    justify-content:baseline;
+    margin-top: 50px;
+    width: 182px;
+    padding: 10px;
+    font-size:16px;
+    color: blue;
+    border-radius: 10px;
+    margin-left:400px;
+}
+.more{
+    margin-left: 71px;
+    color: blue;
+    font-size: 20px;
+}
+.flex img{
+    width:90%;
+    margin: 90px;
+}
+.flex h2{
+      text-align: center;
+      font-size:50px;
+}
+.flex p{
+    padding-left: 440px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.freedom{
+    justify-content:baseline;
+    margin-top: 50px;
+    width: 90px;
+    padding: 10px;
+    font-size:20px;
+    background-color:rgb(97, 97, 247);
+    color:white;
+    border-radius: 10px;
+    margin-left:400px;
+}
+.learn{
+    margin-left: 71px;
+    color: blue;
+    font-size: 20px;
+} 
+.image07{
+     position: absolute;
+    margin: 10px;
+    width: 70%;
+    bottom:-490%;
+    padding-left:200px;
+}
+.image p{
+   margin-top:400px;
+    font-size: 20px;
+    padding-left:542px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image h2{
+    padding-left: 500px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.group{
+    width:74%;
+    padding-left:200px;
+    height: 30%;
+    display: flex;
+}
+.image h4{
+    font-size: 21px;
+    padding-left:300px;
+    margin-top: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#doubt{
+    font-size: 101px;
+    padding-left: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.div2 h2{
+    text-align: center;
+        font-size: 25px;
+        padding-left: 40px;
+        margin-top: 170px;
+       
+}
+.div2 p{
+    font-size: 16px;
+    padding-left: 450px;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image3{
+    display: flex;
+}
+.image3 img{
+    margin:2%;
+    width: 30%;
+}
+#image-heading h2{
+           font-size:30px;
+           padding-left:33%;
+}          
+.bottum{
+    justify-content:baseline;
+    margin-top: 50px;
+    width: 182px;
+    padding: 10px;
+    font-size:16px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin-left:400px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.footer-items ul{
+    list-style: none;
+
+}
+.footer-items li{
+    padding: 8px;
+}
+.footer-items h2{
+    color: #666;
+}
+.footer-contact{
+    align-items: center;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.footer-contact ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.footer-contact li{
+    background-color: #b2adad;
+    width: 500px;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
